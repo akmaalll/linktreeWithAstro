@@ -40,7 +40,7 @@ const socialLinks = [
     <link rel="icon" type="image/svg+xml" href="/image/link.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Linktree-akmal</title>
+    <title>linktreeakmlrydlftrh</title>
   </head>
   <body class="bg-gradient-to-b from-cyan-50 bg-cyan-800">
     <main
@@ -58,7 +58,7 @@ const socialLinks = [
 
       <div class="flex flex-col items-center mt-8 text-cyan-50">
         <h1 class="text-2xl font-semibold">Akmal Rayadil Fitrah</h1>
-        <p>Pengangguran</p>
+        <p>Pengangguran banyak mauna</p>
       </div>
 
       <ul class="mt-10 space-y-3">
@@ -88,6 +88,23 @@ const socialLinks = [
           ))
         }
       </ul>
+      <div class="mt-20 self-center text-cyan-100">
+        <small class="font-semibold flex space-x-1">
+          <span>Copyright</span>
+          <img
+            src="https://cdn.simpleicons.org/Cloudera/white"
+            class="w-3"
+            alt=""
+          />
+          <span id="tahun"></span>
+          <span>By Akmal Rayadil Fitrah</span>
+        </small>
+      </div>
     </main>
   </body>
 </html>
+
+<script>
+  var tahun = new Date().getFullYear();
+  document.getElementById("tahun").innerHTML = tahun;
+</script>
